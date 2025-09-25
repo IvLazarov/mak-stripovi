@@ -1,0 +1,44 @@
+
+.members-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.members-container h1{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.members-container div{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.members-container div h3{
+    color: black;
+}
+
+.members-container div a{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.members-container div a:hover{
+    transform: scale(1.2);
+}

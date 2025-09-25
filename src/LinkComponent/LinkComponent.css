@@ -1,0 +1,13 @@
+
+.home-link{
+    width: fit-content;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    margin-bottom: 2%;
+    transition: all 03.ms;
+}
+
+.home-link:hover{
+   color: black; 
+}
