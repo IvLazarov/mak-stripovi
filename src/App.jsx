@@ -5,6 +5,7 @@ import Members from './Members/Members'
 import SingleMember from './SingleMember/SingleMember'
 import StripTrip from './StripTrip/StripTrip'
 import StripShkola from './StripShkola/StripShkola'
+import Reader from './Reader/Reader'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Route path='/член/:id' element={<SingleMember />} />
     <Route path='/СтрипТрип' element={<StripTrip />} />
     < Route path='/стрип-школа' element={<StripShkola/>} />
+    < Route path='/стрип-од-конкурс/:id' element={<Reader />} />
     </Routes>  
 
   )
@@ -27,7 +29,6 @@ export default App
 //ImageKit: https://imagekit.io/dashboard/media-library/detail/68d1a61b5c7cd75eb89db1d6
 //Онлајн читач: https://www.dargaud.com/bd-en-ligne/les-arcanes-de-la-lune-noire-tome-4/3219/453679b73e7220bffa7af04fa0b856a7
 
-// Za sajtot:
-//Routes so React Router Home, Members, Artists
-//Online Reader Component link to image of comic in StripTrip Component,
-//so logoto na makstripovi i StripTrip
+
+
+//Live link: 

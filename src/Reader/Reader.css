@@ -1,0 +1,33 @@
+.reader-container{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.mySwiper{
+    width: 900px;
+    height: 100vh;
+}
+
+.mySwiper img{
+    height: 800px;
+    width: 900px;
+}
+
+.navlinks{
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.navlinks a{
+    color: black;
+    width: fit-content;
+    text-align: center;
+    height: fit-content;
+    font-size: 20px;
+}
