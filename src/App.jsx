@@ -31,4 +31,4 @@ export default App
 
 
 
-//Live link: 
+//Live link: https://mak-stripovi-proben.netlify.app/
